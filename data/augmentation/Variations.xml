@@ -143,6 +143,70 @@
                     <optionRange from="34005" to="34024" chance="5.89" />
                 </optionCategory>
             </optionGroup>
+            <optionGroup order="0" weaponType="chest">
+                <optionCategory chance="50" >
+                    <optionRange from="33805" to="33824" chance="1.37"/>
+                </optionCategory>
+                <optionCategory chance="50">
+                    <optionRange from="33845" to="33864" chance="1.37" />
+                </optionCategory>
+            </optionGroup>
+            <optionGroup order="1" weaponType="chest">
+                <optionCategory chance="50">
+                    <optionRange from="33965" to="33984" chance="5.89" />
+                </optionCategory>
+                <optionCategory chance="50">
+                    <optionRange from="34005" to="34024" chance="5.89" />
+                </optionCategory>
+            </optionGroup>
+            <optionGroup order="0" weaponType="gloves">
+                <optionCategory chance="50" >
+                    <optionRange from="33805" to="33824" chance="1.37"/>
+                </optionCategory>
+                <optionCategory chance="50">
+                    <optionRange from="33845" to="33864" chance="1.37" />
+                </optionCategory>
+            </optionGroup>
+            <optionGroup order="1" weaponType="gloves">
+                <optionCategory chance="50">
+                    <optionRange from="33965" to="33984" chance="5.89" />
+                </optionCategory>
+                <optionCategory chance="50">
+                    <optionRange from="34005" to="34024" chance="5.89" />
+                </optionCategory>
+            </optionGroup>
+            <optionGroup order="0" weaponType="boots">
+                <optionCategory chance="50" >
+                    <optionRange from="33805" to="33824" chance="1.37"/>
+                </optionCategory>
+                <optionCategory chance="50">
+                    <optionRange from="33845" to="33864" chance="1.37" />
+                </optionCategory>
+            </optionGroup>
+            <optionGroup order="1" weaponType="boots">
+                <optionCategory chance="50">
+                    <optionRange from="33965" to="33984" chance="5.89" />
+                </optionCategory>
+                <optionCategory chance="50">
+                    <optionRange from="34005" to="34024" chance="5.89" />
+                </optionCategory>
+            </optionGroup>
+            <optionGroup order="0" weaponType="helmet">
+                <optionCategory chance="50" >
+                    <optionRange from="33805" to="33824" chance="1.37"/>
+                </optionCategory>
+                <optionCategory chance="50">
+                    <optionRange from="33845" to="33864" chance="1.37" />
+                </optionCategory>
+            </optionGroup>
+            <optionGroup order="1" weaponType="helmet">
+                <optionCategory chance="50">
+                    <optionRange from="33965" to="33984" chance="5.89" />
+                </optionCategory>
+                <optionCategory chance="50">
+                    <optionRange from="34005" to="34024" chance="5.89" />
+                </optionCategory>
+            </optionGroup>
         </variation>
         <!-- Life Stone Lv. 2 - Armor -->
         <variation mineralId="94188">
@@ -1486,6 +1550,45 @@
 			<item id="90853" />
 			<item id="90854" />
 		</itemGroup>
+        <itemGroup id="2">
+            <!-- Common accessory jewels -->
+            <item id="91952" />
+            <item id="893" />
+            <item id="902" />
+            <item id="889" />
+            <item id="862" />
+            <item id="871" />
+            <item id="858" />
+            <item id="14350" />
+            <item id="933" />
+            <item id="920" />
+            <!-- Rare accessory jewels -->
+            <item id="91552" />
+            <item id="49577" />
+            <item id="49578" />
+            <item id="49579" />
+            <item id="49582" />
+            <item id="90765" />
+            <item id="91139" />
+            <item id="91550" />
+            <item id="91551" />
+            <item id="6660" />
+            <item id="49574" />
+            <item id="6662" />
+            <item id="49576" />
+            <item id="6661" />
+            <item id="49575" />
+            <item id="49580" />
+            <item id="49581" />
+            <item id="90763" />
+            <item id="90764" />
+            <item id="90992" />
+            <item id="91138" />
+            <item id="91117" />
+            <item id="91119" />
+            <item id="91121" />
+            <item id="91123" />
+        </itemGroup>
 	</itemGroups>
     <fees>
 
@@ -1521,6 +1624,9 @@
         <fee itemGroup="1" itemId="57" itemCount="300000" cancelFee="1000000">
             <mineral id="94188" /> <!-- Life Stone Lv. 2 - Armor -->
         </fee>
-
+        <!-- Life Stone - Accessory -->
+        <fee itemGroup="2" itemId="57" itemCount="300000" cancelFee="1000000">
+            <mineral id="94423" /> <!-- Life Stone - Accessory -->
+        </fee>
     </fees>
 </list>

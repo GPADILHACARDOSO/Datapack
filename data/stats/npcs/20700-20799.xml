@@ -656,7 +656,7 @@
             </spoil>
         </dropLists>		
     </npc>
-    <npc id="20751" level="44" type="Monster" name="Snipe">
+    <npc id="20751" level="54" type="Monster" name="Snipe">
         <parameters>
             <param name="MoveAroundSocial" value="90"/>
             <param name="MoveAroundSocial1" value="90"/>
@@ -677,9 +677,6 @@
             <param name="SpiritShot" value="100"/>
             <param name="SpiritShotRate" value="5"/>
             <param name="LongRangeGuardRate" value="5"/>
-            <skill name="Skill01_ID" id="4032" level="4"/>
-            <skill name="Skill02_ID" id="4579" level="4"/>
-            <skill name="Skill03_ID" id="4091" level="1"/>
         </parameters>
         <race>BEAST</race>
         <sex>MALE</sex>
@@ -697,21 +694,18 @@
         </stats>
         <status undying="false" canBeSown="true"/>
         <skillList>
-            <skill id="4032" level="4"/> <!-- NPC Strike -->
-            <skill id="4071" level="5"/> <!-- Resist Bow/Crossbow Weapons -->
-            <skill id="4086" level="1"/> <!-- Critical Chance -->
-            <skill id="4091" level="1"/> <!-- NPC Ogre Spirit Totem -->
-            <skill id="4408" level="11"/> <!-- HP Increase (3x) -->
-            <skill id="4409" level="1"/> <!-- MP Increase (1x) -->
-            <skill id="4410" level="12"/> <!-- Slightly Strong P. Atk. -->
+            <skill id="4416" level="3"/> <!-- Beasts -->
+            <skill id="4408" level="13"/> <!-- HP Increase (5x) -->
+            <skill id="4410" level="15"/> <!-- Slightly Strong P. Atk. -->
             <skill id="4411" level="12"/> <!-- Slightly Strong M. Atk. -->
             <skill id="4412" level="10"/> <!-- Slightly Weak P. Def. -->
-            <skill id="4413" level="13"/> <!-- Slightly Strong M. Def. -->
+            <skill id="4413" level="10"/> <!-- Slightly Strong M. Def. -->
+            <skill id="4086" level="1"/> <!-- Critical Chance -->
+            <skill id="4071" level="5"/> <!-- Resist Bow/Crossbow Weapons -->
             <skill id="4414" level="2"/> <!-- Standard Type -->
-            <skill id="4415" level="1"/> <!-- Bare Hands -->
-            <skill id="4416" level="3"/> <!-- Beasts -->
+            <skill id="4032" level="4"/> <!-- NPC Strike -->
             <skill id="4579" level="4"/> <!-- Bleed -->
-            <skill id="4073" level="1"/> <!-- Stun -->
+            <skill id="4091" level="1"/> <!-- NPC Ogre Spirit Totem -->
         </skillList>
         <shots shotChance="30" spiritChance="30"/>
         <exCrtEffect>false</exCrtEffect>
@@ -723,38 +717,21 @@
         </collision>
         <dropLists>
             <drop>
-                <item id="57" min="1716" max="3517" chance="70"/> <!-- Adena -->
-                <item id="62" min="1" max="1" chance="0.05"/> <!-- Reinforced Mithril Boots -->
-                <item id="2432" min="1" max="1" chance="0.03"/> <!-- Dwarven Chain Boots -->
-                <item id="2429" min="1" max="1" chance="0.03"/> <!-- Chain Boots -->
-                <item id="2430" min="1" max="1" chance="0.03"/> <!-- Karmian Boots -->
-                <item id="2431" min="1" max="1" chance="0.03"/> <!-- Plated Leather Boots -->
-                <item id="2433" min="1" max="1" chance="0.03"/> <!-- Boots of Seal -->
-                <item id="2453" min="1" max="1" chance="0.03"/> <!-- Chain Gloves -->
-                <item id="2452" min="1" max="1" chance="0.03"/> <!-- Reinforced Mithril Gloves -->
-                <item id="2454" min="1" max="1" chance="0.03"/> <!-- Karmian Gloves -->
-                <item id="1958" min="1" max="1" chance="1.037"/> <!-- Reinforced Mithril Boot Design -->
-                <item id="2937" min="1" max="1" chance="1.0291"/> <!-- Chain Boot Fragment -->
-                <item id="2938" min="1" max="1" chance="1.0289"/> <!-- Karmian Boot Fabric -->
-                <item id="2939" min="1" max="1" chance="1.0289"/> <!-- Plated Leather Boot Lining -->
-                <item id="2940" min="1" max="1" chance="1.0289"/> <!-- Dwarven Chain Boot Fragment -->
-                <item id="2941" min="1" max="1" chance="1.0289"/> <!-- Boots of Seal Pattern -->
-                <item id="2942" min="1" max="1" chance="1.0289"/> <!-- Reinforced Mithril Glove Design -->
-                <item id="2943" min="1" max="1" chance="1.0289"/> <!-- Chain Glove Design -->
-                <item id="2944" min="1" max="1" chance="1.0289"/> <!-- Karmian Glove Fabric -->
-                <item id="2216" min="1" max="1" chance="1.08"/> <!-- Recipe: Great Helmet -->
-                <item id="1894" min="1" max="1" chance="0.918"/> <!-- Crafted Leather -->
-                <item id="2321" min="1" max="1" chance="0.0911"/> <!-- Recipe: Stiletto -->
-                <item id="2225" min="1" max="1" chance="0.568"/> <!-- Recipe: Demon's Stockings -->
+                <item id="57" min="10703" max="25004" chance="70"/> <!-- Adena -->
+                <item id="62" min="1" max="1" chance="0.01565"/> <!-- Dwarven Hammer -->
+                <item id="2432" min="1" max="1" chance="0.0223"/> <!-- Karik horn -->
+                <item id="2429" min="1" max="1" chance="0.01565"/> <!-- Ecliptic Axe -->
+                <item id="2430" min="1" max="1" chance="0.19102"/> <!-- Spellbook: Hex -->
+                <item id="2431" min="1" max="1" chance="0.19102"/> <!-- Spellbook: Iron Will -->
+                <item id="2433" min="1" max="1" chance="0.09547"/> <!-- Spellbook: Benediction -->
             </drop>
             <spoil>
-                <item id="2161" min="1" max="1" chance="42.3261"/> <!-- Recipe: Aquastone Ring -->
-                <item id="1949" min="1" max="1" chance="48.6561"/> <!-- Mithril Glove Design -->
-                <item id="1894" min="1" max="1" chance="15.2968"/> <!-- Crafted Leather -->
+                <item id="2161" min="1" max="1" chance="0.7917"/> <!-- Recipe: Crystal Dagger -->
+                <item id="1949" min="1" max="1" chance="62.57791"/> <!-- Adamantite Nugget -->
             </spoil>
         </dropLists>
     </npc>
-    <npc id="20752" level="42" type="Monster" name="Snipe's Subordinate">
+    <npc id="20752" level="52" type="Monster" name="Snipe's Subordinate">
         <parameters>
             <param name="MoveAroundSocial" value="90"/>
             <param name="MoveAroundSocial1" value="90"/>
@@ -784,13 +761,13 @@
         </stats>
         <status undying="false" canBeSown="true"/>
         <skillList>
-            <skill id="4032" level="1"/> <!-- Power Strike -->
             <skill id="4416" level="3"/> <!-- Beasts -->
             <skill id="4408" level="11"/> <!-- HP Increase (3x) -->
             <skill id="4410" level="12"/> <!-- Slightly Strong P. Atk. -->
             <skill id="4411" level="10"/> <!-- Slightly Weak M. Atk. -->
             <skill id="4412" level="12"/> <!-- Slightly Strong P. Def. -->
             <skill id="4413" level="14"/> <!-- Strong M. Def. -->
+            <skill id="4032" level="1"/> <!-- Power Strike -->
         </skillList>
         <shots shotChance="30" spiritChance="30"/>
         <exCrtEffect>false</exCrtEffect>
@@ -802,23 +779,25 @@
         </collision>
         <dropLists>
             <drop>
-                <item id="225" min="1" max="1" chance="0.03"/> <!-- Mithril Dagger -->
-                <item id="57" min="618" max="1447" chance="70"/> <!-- Adena -->
-                <item id="1868" min="1" max="3" chance="15.52"/> <!-- Thread -->
-                <item id="1866" min="1" max="1" chance="10.15"/> <!-- Suede -->
-                <item id="1867" min="1" max="3" chance="6.941"/> <!-- Animal Skin -->
-                <item id="1882" min="1" max="1" chance="3.391"/> <!-- Leather -->
-                <item id="2052" min="1" max="1" chance="1.413"/> <!-- Mithril Dagger Blade -->
-                <item id="2214" min="1" max="1" chance="0.3"/> <!-- Recipe: Dwarven Chain Gaiters -->
-                <item id="2358" min="1" max="1" chance="0.03"/> <!-- Recipe: Great Pata -->
+                <item id="57" min="3325" max="7826" chance="70"/> <!-- Adena -->
+                <item id="96" min="1" max="1" chance="0.00558"/> <!-- Scythe -->
+                <item id="2062" min="1" max="1" chance="0.50053"/> <!-- Scythe Edge -->
+                <item id="298" min="1" max="1" chance="0.00558"/> <!-- Orcish Glaive -->
+                <item id="2075" min="1" max="1" chance="0.50053"/> <!-- Orcish Glaive Blade -->
+                <item id="302" min="1" max="1" chance="0.00558"/> <!-- Body Slasher -->
+                <item id="2076" min="1" max="1" chance="050053"/> <!-- Body Slasher Blade -->
+                <item id="2070" min="1" max="1" chance="0.50673"/> <!-- Cursed Dagger Blade -->
+                <item id="3064" min="1" max="1" chance="0.06624"/> <!-- Spellbook: Silence -->
+                <item id="3111" min="1" max="1" chance="0.06633"/> <!-- Amulet: Seal of Suspension -->
             </drop>
             <spoil>
-                <item id="2234" min="1" max="1" chance="6.593"/> <!-- Recipe: Divine Stockings -->
-                <item id="2091" min="1" max="1" chance="2.469"/> <!-- Tsurugi Blade -->
+                <item id="1880" min="1" max="1" chance="36.30236"/> <!-- Steel -->
+                <item id="2940" min="1" max="1" chance="33.00185"/> <!-- Dwarven Chain Boot Fragment -->
+                <item id="2251" min="1" max="1" chance="16.8243"/> <!-- Recipe: Steel Arrow -->
             </spoil>
         </dropLists>
     </npc>
-    <npc id="20753" level="50" type="Monster" name="Dark Lord">
+    <npc id="20753" level="70" type="Monster" name="Dark Lord">
         <parameters>
             <param name="MoveAroundSocial" value="80"/>
             <param name="MoveAroundSocial1" value="80"/>
@@ -842,8 +821,6 @@
             <param name="SpiritShot" value="100"/>
             <param name="SpiritShotRate" value="5"/>
             <param name="LongRangeGuardRate" value="5"/>
-            <skill name="Skill01_ID" id="4078" level="5"/>
-            <skill name="Skill02_ID" id="4571" level="5"/>
         </parameters>
         <race>UNDEAD</race>
         <sex>MALE</sex>
@@ -862,20 +839,17 @@
         </stats>
         <status undying="false" canBeSown="true"/>
         <skillList>
-            <skill id="4078" level="5"/> <!-- NPC Flamestrike -->
-            <skill id="4225" level="1"/> <!-- Resist Stun Attacks -->
+            <skill id="4416" level="1"/> <!-- Undead -->
             <skill id="4408" level="13"/> <!-- HP Increase (5x) -->
-            <skill id="4409" level="1"/> <!-- MP Increase (1x) -->
-            <skill id="4410" level="12"/> <!-- Slightly Strong P. Atk. -->
+            <skill id="4410" level="15"/> <!-- Very Strong P. Atk. -->
             <skill id="4411" level="10"/> <!-- Slightly Weak M. Atk. -->
             <skill id="4412" level="12"/> <!-- Slightly Strong P. Def. -->
             <skill id="4413" level="12"/> <!-- Slightly Strong M. Def. -->
-            <skill id="4414" level="3"/> <!-- Light Armor Type -->
-            <skill id="4415" level="1"/> <!-- Bare Hands -->
-            <skill id="4416" level="1"/> <!-- Undead -->
-            <skill id="4571" level="5"/> <!-- NPC Blazing Circle -->
-            <skill id="4278" level="1"/> <!-- Dark Attack -->
             <skill id="4275" level="2"/> <!-- Holy Attack Vulnerability -->
+            <skill id="4278" level="1"/> <!-- Dark Attack -->
+            <skill id="4225" level="1"/> <!-- Stun Attack Resistance -->
+            <skill id="4078" level="5"/> <!-- NPC Flamestrike -->
+            <skill id="4571" level="5"/> <!-- NPC Blazing Circle -->
         </skillList>
         <shots shotChance="30" spiritChance="30"/>
         <exCrtEffect>false</exCrtEffect>
@@ -891,45 +865,26 @@
         </collision>
         <dropLists>
             <drop>
-                <item id="75" min="1" max="1" chance="0.03"/> <!-- Caliburs -->
-                <item id="76" min="1" max="1" chance="0.03"/> <!-- Sword of Delusion -->
-                <item id="77" min="1" max="1" chance="0.03"/> <!-- Tsurugi -->
-                <item id="84" min="1" max="1" chance="0.03"/> <!-- Homunkulus' Sword -->
-                <item id="134" min="1" max="1" chance="0.03"/> <!-- Sword of Nightmare -->
-                <item id="145" min="1" max="1" chance="0.03"/> <!-- Sword of Whispering Death -->
-                <item id="231" min="1" max="1" chance="0.03"/> <!-- Grace Dagger -->
-                <item id="233" min="1" max="1" chance="0.03"/> <!-- Dark Screamer -->
-                <item id="57" min="10719" max="25088" chance="70"/> <!-- Adena -->
-                <item id="1865" min="7" max="21" chance="9.623"/> <!-- Varnish -->
-                <item id="2167" min="1" max="1" chance="7.377"/> <!-- Recipe: Ring of Ages -->
-                <item id="1882" min="3" max="9" chance="5.345"/> <!-- Leather -->
-                <item id="1876" min="3" max="9" chance="4.184"/> <!-- Mithril Ore -->
-                <item id="1872" min="32" max="96" chance="3.068"/> <!-- Animal Bone -->
-                <item id="1890" min="1" max="1" chance="2.183"/> <!-- Mithril Alloy -->
-                <item id="2106" min="1" max="1" chance="1.991"/> <!-- Grace Dagger Edge -->
-                <item id="2091" min="1" max="1" chance="1.938"/> <!-- Tsurugi Blade -->
-                <item id="2095" min="1" max="1" chance="1.931"/> <!-- Sword of Nightmare Blade -->
-                <item id="2107" min="1" max="1" chance="1.926"/> <!-- Dark Screamer Edge -->
-                <item id="2096" min="1" max="1" chance="1.916"/> <!-- Sword of Whispering Death Blade -->
-                <item id="2089" min="1" max="1" chance="1.908"/> <!-- Caliburs Edge -->
-                <item id="2090" min="1" max="1" chance="1.904"/> <!-- Delusional Blade -->
-                <item id="952" min="1" max="1" chance="1.904"/> <!-- Scroll: Enchant Armor (C-grade) -->
-                <item id="2092" min="1" max="1" chance="1.86"/> <!-- Homunkulus' Sword Blade -->
-                <item id="2232" min="1" max="1" chance="0.75"/> <!-- Recipe: Drake Leather Armor -->
-                <item id="4555" min="1" max="1" chance="0.75"/> <!-- Greater Dye of CON <Con +1 Str -1> - 2nd Class Transfer -->
-                <item id="4556" min="1" max="1" chance="0.75"/> <!-- Greater Dye of CON <Con +1 DEX -1> - 2nd Class Transfer -->
-                <item id="4561" min="1" max="1" chance="0.75"/> <!-- Greater Dye of MEN <Men +1 Int -1> - 2nd Class Transfer -->
-                <item id="4562" min="1" max="1" chance="0.75"/> <!-- Greater Dye of MEN <Men +1 Wit -1> - 2nd Class Transfer -->
-                <item id="951" min="1" max="1" chance="0.3"/> <!-- Scroll: Enchant Weapon (C-grade) -->
+                <item id="57" min="26600" max="62174" chance="70"/> <!-- Adena -->
+                <item id="287" min="1" max="1" chance="0.00872"/> <!-- Bow of Peril -->
+                <item id="4121" min="1" max="1" chance="2.47369"/> <!-- Bow of Peril Shaft -->
+                <item id="234" min="1" max="1" chance="0.00872"/> <!-- Demon's Dagger -->
+                <item id="4119" min="1" max="1" chance="2.45612"/> <!-- Demon's Dagger Edge -->
+                <item id="1866" min="18" max="54" chance="2.00563"/> <!-- Suede -->
+                <item id="1876" min="4" max="12" chance="2.70285"/> <!-- Mithril Ore -->
+                <item id="1895" min="3" max="10" chance="4.39379"/> <!-- Metallic Fiber -->
+                <item id="1870" min="5" max="15" chance="10.58924"/> <!-- Coal -->
+                <item id="1871" min="5" max="27" chance="5.95612"/> <!-- Charcoal -->
+                <item id="1879" min="1" max="1" chance="15.54217"/> <!-- Cokes -->
             </drop>
             <spoil>
-                <item id="1874" min="1" max="7" chance="88.63"/> <!-- Oriharukon Ore -->
-                <item id="1875" min="1" max="7" chance="88.59"/> <!-- Stone of Purity -->
-                <item id="1978" min="1" max="7" chance="81.65"/> <!-- Tower Shield Fragment -->
+                <item id="4199" min="1" max="1" chance="0.2758"/> <!-- Recipe: Bow of Peril -->
+                <item id="4192" min="1" max="1" chance="0.2758"/> <!-- Recipe: Damascus Sword -->
+                <item id="4186" min="1" max="1" chance="0.4162"/> <!-- Recipe: Sword of Valhalla -->
             </spoil>
         </dropLists>
     </npc>
-    <npc id="20754" level="48" type="Monster" name="Dark Knight">
+    <npc id="20754" level="68" type="Monster" name="Dark Knight">
         <parameters>
             <param name="MoveAroundSocial" value="74"/>
             <param name="MoveAroundSocial1" value="74"/>
@@ -942,7 +897,6 @@
             <param name="SpiritShot" value="100"/>
             <param name="SpiritShotRate" value="5"/>
             <param name="LongRangeGuardRate" value="5"/>
-            <skill name="Skill01_ID" id="4077" level="4"/>
         </parameters>
         <race>UNDEAD</race>
         <sex>MALE</sex>
@@ -961,17 +915,18 @@
         </stats>
         <status undying="false" canBeSown="true"/>
         <skillList>
-            <skill id="4077" level="4"/> <!-- NPC Aura Burn -->
             <skill id="4416" level="1"/> <!-- Undead -->
             <skill id="4408" level="11"/> <!-- HP Increase (3x) -->
             <skill id="4410" level="13"/> <!-- Slightly Strong P. Atk. -->
             <skill id="4412" level="13"/> <!-- Slightly Strong P. Def. -->
             <skill id="4275" level="2"/> <!-- Holy Attack Vulnerability -->
             <skill id="4278" level="1"/> <!-- Dark Attack -->
+            <skill id="4078" level="6"/> <!-- Flame Strike -->
+            <skill id="4571" level="6"/> <!-- Blazing Circle -->
         </skillList>
         <shots shotChance="30" spiritChance="30"/>
         <exCrtEffect>false</exCrtEffect>
-        <sNpcPropHpRate>2</sNpcPropHpRate>		
+        <sNpcPropHpRate>2</sNpcPropHpRate>
         <ai clanHelpRange="300" isAggressive="false">
             <clanList>
                 <clan>UNDEAD</clan>
@@ -983,27 +938,29 @@
         </collision>
         <dropLists>
             <drop>
-                <item id="418" min="1" max="1" chance="0.075"/> <!-- Plated Leather Gaiters -->
-                <item id="325" min="1" max="1" chance="0.0075"/> <!-- Horn of Glory -->
-                <item id="4233" min="1" max="1" chance="0.0075"/> <!-- Fist -->
-                <item id="57" min="845" max="1970" chance="70"/> <!-- Adena -->
-                <item id="1872" min="1" max="1" chance="19.77"/> <!-- Animal Bone -->
-                <item id="1865" min="1" max="1" chance="15.24"/> <!-- Varnish -->
-                <item id="1967" min="1" max="1" chance="4.038"/> <!-- Plated Leather Gaiters Material -->
-                <item id="1882" min="1" max="1" chance="3.354"/> <!-- Leather -->
-                <item id="1876" min="1" max="1" chance="3.011"/> <!-- Mithril Ore -->
-                <item id="2088" min="1" max="1" chance="0.75"/> <!-- Horn of Glory Fragment -->
-                <item id="4438" min="1" max="1" chance="0.75"/> <!-- Knuckle Duster Edge -->
-                <item id="2227" min="1" max="1" chance="0.75"/> <!-- Recipe: Forgotten Boots -->
-                <item id="2224" min="1" max="1" chance="0.3"/> <!-- Recipe: Demon's Tunic -->
-                <item id="4559" min="1" max="1" chance="0.075"/> <!-- Greater Dye of INT <Int +1 Men -1> - 2nd Class Transfer -->
-                <item id="4560" min="1" max="1" chance="0.075"/> <!-- Greater Dye of INT <Int +1 Wit -1> - 2nd Class Transfer -->
-                <item id="4563" min="1" max="1" chance="0.075"/> <!-- Greater Dye of WIT <Wit +1 Int -1> - 2nd Class Transfer -->
-                <item id="4564" min="1" max="1" chance="0.075"/> <!-- Greater Dye of WIT <Wit +1 Men -1> - 2nd Class Transfer -->
+                <item id="57" min="8372" max="19579" chance="70"/> <!-- Adena -->
+                <item id="79" min="1" max="1" chance="0.00137"/> <!-- Damascus Sword -->
+                <item id="4114" min="1" max="1" chance="0.39139"/> <!-- Damascus Sword Blade -->
+                <item id="287" min="1" max="1" chance="0.00137"/> <!-- Bow of Peril -->
+                <item id="4121" min="1" max="1" chance="0.39139"/> <!-- Bow of Peril Shaft -->
+                <item id="358" min="1" max="1" chance="0.00559"/> <!-- Blue Wolf Breastplate -->
+                <item id="4078" min="1" max="1" chance="1.30968"/> <!-- Blue Wolf Breastplate Part -->
+                <item id="2380" min="1" max="1" chance="0.00895"/> <!-- Blue Wolf Gaiters -->
+                <item id="4080" min="1" max="1" chance="1.84183"/> <!-- Blue Wolf Gaiter Material -->
+                <item id="1873" min="1" max="1" chance="13.23135"/> <!-- Silver Nugget -->
+                <item id="1869" min="1" max="1" chance="26.73695"/> <!-- Iron Ore -->
+                <item id="1880" min="1" max="1" chance="3.3958"/> <!-- Steel -->
+                <item id="1874" min="1" max="1" chance="2.27042"/> <!-- Oriharukon Ore -->
+                <item id="4042" min="1" max="1" chance="0.57002"/> <!-- Enria -->
+                <item id="4039" min="1" max="1" chance="1.13842"/> <!-- Mold Glue -->
             </drop>
             <spoil>
-                <item id="2951" min="1" max="1" chance="51.69"/> <!-- Rind Leather Glove Design -->
-                <item id="848" min="1" max="1" chance="2.877"/> <!-- Earring of Magic -->
+                <item id="1873" min="1" max="1" chance="70.26981"/> <!-- Silver Nugget -->
+                <item id="1869" min="1" max="1" chance="100.00"/> <!-- Iron Ore -->
+                <item id="1880" min="1" max="1" chance="21.44475"/> <!-- Steel -->
+                <item id="1874" min="1" max="1" chance="14.58396"/> <!-- Oriharukon Ore -->
+                <item id="4042" min="1" max="1" chance="3.7537"/> <!-- Enria -->
+                <item id="4039" min="1" max="1" chance="17.43559"/> <!-- Mold Glue -->
             </spoil>
         </dropLists>
     </npc>
