@@ -2504,7 +2504,7 @@
                 <run ground="143" />
             </speed>
         </stats>
-        <status attackable="false" />
+        <status attackable="true" />
         <collision>
             <radius normal="28" />
             <height normal="50" />
@@ -2680,7 +2680,7 @@
                 <run ground="160" />
             </speed>
         </stats>
-        <status attackable="false" />
+        <status attackable="true" />
         <collision>
             <radius normal="13" />
             <height normal="41" />
@@ -2737,7 +2737,7 @@
                 <run ground="150" />
             </speed>
         </stats>
-        <status attackable="false" />
+        <status attackable="true" />
         <ai clanHelpRange="300" aggroRange="450">
             <clanList>
                 <clan>ALL</clan>
@@ -2789,7 +2789,6 @@
             <param name="SpiritShotRate" value="5"/>
             <param name="LongRangeGuardRate" value="5"/>
         </parameters>
-        <race>MAGICAL</race>
         <sex>FEMALE</sex>
         <acquire exp="7357450" sp="220726" attribute_exp="59000"/>
         <stats str="40" int="21" dex="30" wit="20" con="43" men="25">
@@ -2801,7 +2800,7 @@
                 <run ground="160" />
             </speed>
         </stats>
-        <status attackable="false" />
+        <status attackable="true" />
         <ai clanHelpRange="300" aggroRange="450">
             <clanList>
                 <clan>ALL</clan>
@@ -2918,7 +2917,7 @@
                 <run ground="165" />
             </speed>
         </stats>
-        <status attackable="false" />
+        <status attackable="true" />
         <collision>
             <radius normal="18" />
             <height normal="25" />
@@ -2971,7 +2970,7 @@
                 <run ground="164" />
             </speed>
         </stats>
-        <status attackable="false" />
+        <status attackable="true" />
         <ai clanHelpRange="300" aggroRange="450">
             <clanList>
                 <clan>ALL</clan>
@@ -3029,7 +3028,7 @@
                 <run ground="160" />
             </speed>
         </stats>
-        <status attackable="false" />
+        <status attackable="true" />
         <collision>
             <radius normal="14" />
             <height normal="26.5" />
@@ -3082,7 +3081,7 @@
                 <run ground="150" />
             </speed>
         </stats>
-        <status attackable="false" />
+        <status attackable="true" />
         <collision>
             <radius normal="18" />
             <height normal="35" />
