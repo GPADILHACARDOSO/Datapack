@@ -2482,16 +2482,27 @@
     </npc>
     <npc id="21989" level="86" type="Monster" name="Ghost of the Tower" element="WIND">
         <!-- AUTO GENERATED NPC TODO: FIX IT -->
-        <race>ETC</race>
+        <parameters>
+            <param name="MoveAroundSocial" value="157"/>
+            <param name="MoveAroundSocial1" value="157"/>
+            <param name="MoveAroundSocial2" value="157"/>
+            <param name="SoulShot" value="100"/>
+            <param name="SoulShotRate" value="10"/>
+            <param name="SpiritShot" value="100"/>
+            <param name="SpiritShotRate" value="5"/>
+            <param name="LongRangeGuardRate" value="5"/>
+        </parameters>
+        <race>UNDEAD</race>
         <sex>FEMALE</sex>
-        <stats str="88" int="79" dex="55" wit="78" con="82" men="78">
-            <vitals hp="99789.4215" hpRegen="10.5" mp="2821.65" mpRegen="3.6" />
+        <acquire exp="6152288" sp="184569" attribute_exp="59000"/>
+        <stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+            <vitals hp="80232.4215" hpRegen="10.5" mp="2821.65" mpRegen="3.6" />
+            <attack physical="2821.65" magical="1661.5869440987" critical="4" attackSpeed="253" range="40" />
+            <defence physical="789.85106382979" magical="198.0297029703" />
             <speed>
                 <walk ground="60" />
-                <run ground="120" />
+                <run ground="143" />
             </speed>
-            <attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
-            <defence physical="405.85106382979" magical="297.0297029703" />
         </stats>
         <status attackable="false" />
         <collision>
@@ -2521,18 +2532,29 @@
             </spoil>
         </dropLists>
     </npc>
-    <npc id="21990" level="86" type="Monster" name="Tower's Watchman" element="WIND">
+    <npc id="21990" level="86" type="Monster" name="Tower's Watchman">
         <!-- AUTO GENERATED NPC TODO: FIX IT -->
+        <parameters>
+            <param name="MoveAroundSocial" value="157"/>
+            <param name="MoveAroundSocial1" value="157"/>
+            <param name="MoveAroundSocial2" value="157"/>
+            <param name="SoulShot" value="100"/>
+            <param name="SoulShotRate" value="10"/>
+            <param name="SpiritShot" value="100"/>
+            <param name="SpiritShotRate" value="5"/>
+            <param name="LongRangeGuardRate" value="5"/>
+        </parameters>
         <race>UNDEAD</race>
-        <sex>FEMALE</sex>
-        <stats str="88" int="79" dex="55" wit="78" con="82" men="78">
-            <vitals hp="99789.4215" hpRegen="10.5" mp="2821.65" mpRegen="3.6" />
+        <sex>MALE</sex>
+        <acquire exp="6152288" sp="184569" attribute_exp="59000"/>
+        <stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+            <vitals hp="80232.4215" hpRegen="10.5" mp="2821.65" mpRegen="3.6" />
+            <attack physical="2821.65" magical="1661.5869440987" critical="4" attackSpeed="253" range="40" />
+            <defence physical="789.85106382979" magical="198.0297029703" />
             <speed>
                 <walk ground="60" />
-                <run ground="120" />
+                <run ground="170" />
             </speed>
-            <attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
-            <defence physical="405.85106382979" magical="297.0297029703" />
         </stats>
         <status attackable="false" />
         <ai clanHelpRange="300" aggroRange="450">
@@ -2572,18 +2594,29 @@
             </spoil>
         </dropLists>
     </npc>
-    <npc id="21991" level="86" type="Monster" name="Ghastly Warrior" element="WIND">
+    <npc id="21991" level="86" type="Monster" name="Ghastly Warrior">
         <!-- AUTO GENERATED NPC TODO: FIX IT -->
-        <race>ETC</race>
-        <sex>FEMALE</sex>
-        <stats str="88" int="79" dex="55" wit="78" con="82" men="78">
-            <vitals hp="99789.4215" hpRegen="10.5" mp="2821.65" mpRegen="3.6" />
+        <parameters>
+            <param name="MoveAroundSocial" value="157"/>
+            <param name="MoveAroundSocial1" value="157"/>
+            <param name="MoveAroundSocial2" value="157"/>
+            <param name="SoulShot" value="100"/>
+            <param name="SoulShotRate" value="10"/>
+            <param name="SpiritShot" value="100"/>
+            <param name="SpiritShotRate" value="5"/>
+            <param name="LongRangeGuardRate" value="5"/>
+        </parameters>
+        <race>UNDEAD</race>
+        <sex>MALE</sex>
+        <acquire exp="6152288" sp="184569" attribute_exp="59000"/>
+        <stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+            <vitals hp="80232.4215" hpRegen="10.5" mp="2821.65" mpRegen="3.6" />
+            <attack physical="2821.65" magical="1661.5869440987" critical="4" attackSpeed="253" range="40" />
+            <defence physical="789.85106382979" magical="198.0297029703" />
             <speed>
                 <walk ground="60" />
-                <run ground="120" />
+                <run ground="150" />
             </speed>
-            <attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
-            <defence physical="405.85106382979" magical="297.0297029703" />
         </stats>
         <status attackable="false" />
         <ai clanHelpRange="300" aggroRange="450">
@@ -2623,18 +2656,29 @@
             </spoil>
         </dropLists>
     </npc>
-    <npc id="21992" level="86" type="Monster" name="Archer of Despair" element="WIND">
+    <npc id="21992" level="86" type="Monster" name="Archer of Despair">
         <!-- AUTO GENERATED NPC TODO: FIX IT -->
-        <race>ETC</race>
-        <sex>FEMALE</sex>
-        <stats str="88" int="79" dex="55" wit="78" con="82" men="78">
-            <vitals hp="99789.4215" hpRegen="10.5" mp="2821.65" mpRegen="3.6" />
+        <parameters>
+            <param name="MoveAroundSocial" value="157"/>
+            <param name="MoveAroundSocial1" value="157"/>
+            <param name="MoveAroundSocial2" value="157"/>
+            <param name="SoulShot" value="100"/>
+            <param name="SoulShotRate" value="10"/>
+            <param name="SpiritShot" value="100"/>
+            <param name="SpiritShotRate" value="5"/>
+            <param name="LongRangeGuardRate" value="5"/>
+        </parameters>
+        <race>UNDEAD</race>
+        <sex>MALE</sex>
+        <acquire exp="6152288" sp="184569" attribute_exp="59000"/>
+        <stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+            <vitals hp="80232.4215" hpRegen="10.5" mp="2821.65" mpRegen="3.6" />
+            <attack physical="2821.65" magical="1661.5869440987" critical="4" attackSpeed="253" range="500" />
+            <defence physical="789.85106382979" magical="198.0297029703" />
             <speed>
                 <walk ground="60" />
-                <run ground="120" />
+                <run ground="160" />
             </speed>
-            <attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
-            <defence physical="405.85106382979" magical="297.0297029703" />
         </stats>
         <status attackable="false" />
         <collision>
@@ -2669,18 +2713,29 @@
             </spoil>
         </dropLists>
     </npc>
-    <npc id="21993" level="86" type="Monster" name="Judge of Despair" element="WIND">
+    <npc id="21993" level="86" type="Monster" name="Judge of Despair">
         <!-- AUTO GENERATED NPC TODO: FIX IT -->
-        <race>ETC</race>
-        <sex>FEMALE</sex>
-        <stats str="88" int="79" dex="55" wit="78" con="82" men="78">
-            <vitals hp="99789.4215" hpRegen="10.5" mp="2821.65" mpRegen="3.6" />
+        <parameters>
+            <param name="MoveAroundSocial" value="157"/>
+            <param name="MoveAroundSocial1" value="157"/>
+            <param name="MoveAroundSocial2" value="157"/>
+            <param name="SoulShot" value="100"/>
+            <param name="SoulShotRate" value="10"/>
+            <param name="SpiritShot" value="100"/>
+            <param name="SpiritShotRate" value="5"/>
+            <param name="LongRangeGuardRate" value="5"/>
+        </parameters>
+        <race>UNDEAD</race>
+        <sex>MALE</sex>
+        <acquire exp="6152288" sp="184569" attribute_exp="59000"/>
+        <stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+            <vitals hp="80232.4215" hpRegen="10.5" mp="2821.65" mpRegen="3.6" />
+            <attack physical="2821.65" magical="1661.5869440987" critical="4" attackSpeed="253" range="40" />
+            <defence physical="789.85106382979" magical="198.0297029703" />
             <speed>
                 <walk ground="60" />
-                <run ground="120" />
+                <run ground="150" />
             </speed>
-            <attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
-            <defence physical="405.85106382979" magical="297.0297029703" />
         </stats>
         <status attackable="false" />
         <ai clanHelpRange="300" aggroRange="450">
@@ -2722,18 +2777,29 @@
             </spoil>
         </dropLists>
     </npc>
-    <npc id="21994" level="86" type="Monster" name="Crendion" element="WIND">
+    <npc id="21994" level="86" type="Monster" name="Crendion">
         <!-- AUTO GENERATED NPC TODO: FIX IT -->
-        <race>ETC</race>
+        <parameters>
+            <param name="MoveAroundSocial" value="157"/>
+            <param name="MoveAroundSocial1" value="157"/>
+            <param name="MoveAroundSocial2" value="157"/>
+            <param name="SoulShot" value="100"/>
+            <param name="SoulShotRate" value="10"/>
+            <param name="SpiritShot" value="100"/>
+            <param name="SpiritShotRate" value="5"/>
+            <param name="LongRangeGuardRate" value="5"/>
+        </parameters>
+        <race>MAGICAL</race>
         <sex>FEMALE</sex>
-        <stats str="88" int="79" dex="55" wit="78" con="82" men="78">
-            <vitals hp="99789.4215" hpRegen="10.5" mp="2821.65" mpRegen="3.6" />
+        <acquire exp="7357450" sp="220726" attribute_exp="59000"/>
+        <stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+            <vitals hp="80232.4215" hpRegen="10.5" mp="2821.65" mpRegen="3.6" />
+            <attack physical="2821.65" magical="1661.5869440987" critical="4" attackSpeed="253" range="40" />
+            <defence physical="789.85106382979" magical="198.0297029703" />
             <speed>
                 <walk ground="60" />
-                <run ground="120" />
+                <run ground="160" />
             </speed>
-            <attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
-            <defence physical="405.85106382979" magical="297.0297029703" />
         </stats>
         <status attackable="false" />
         <ai clanHelpRange="300" aggroRange="450">
@@ -2770,18 +2836,29 @@
             </spoil>
         </dropLists>
     </npc>
-    <npc id="21995" level="86" type="Monster" name="Blader of Trial" element="WIND">
+    <npc id="21995" level="86" type="Monster" name="Blader of Trial">
         <!-- AUTO GENERATED NPC TODO: FIX IT -->
-        <race>ETC</race>
-        <sex>FEMALE</sex>
-        <stats str="88" int="79" dex="55" wit="78" con="82" men="78">
-            <vitals hp="99789.4215" hpRegen="10.5" mp="2821.65" mpRegen="3.6" />
+        <parameters>
+            <param name="MoveAroundSocial" value="157"/>
+            <param name="MoveAroundSocial1" value="157"/>
+            <param name="MoveAroundSocial2" value="157"/>
+            <param name="SoulShot" value="100"/>
+            <param name="SoulShotRate" value="10"/>
+            <param name="SpiritShot" value="100"/>
+            <param name="SpiritShotRate" value="5"/>
+            <param name="LongRangeGuardRate" value="5"/>
+        </parameters>
+        <race>UNDEAD</race>
+        <sex>MALE</sex>
+        <acquire exp="7357450" sp="220726" attribute_exp="59000"/>
+        <stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+            <vitals hp="80232.4215" hpRegen="10.5" mp="2821.65" mpRegen="3.6" />
+            <attack physical="2821.65" magical="1661.5869440987" critical="4" attackSpeed="253" range="40" />
+            <defence physical="789.85106382979" magical="198.0297029703" />
             <speed>
                 <walk ground="60" />
-                <run ground="120" />
+                <run ground="143" />
             </speed>
-            <attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
-            <defence physical="405.85106382979" magical="297.0297029703" />
         </stats>
         <status attackable="false" />
         <ai clanHelpRange="300" aggroRange="450">
@@ -2817,18 +2894,29 @@
             </spoil>
         </dropLists>
     </npc>
-    <npc id="21996" level="86" type="Monster" name="Hound Dog of Destruction" element="WIND">
+    <npc id="21996" level="86" type="Monster" name="Hound Dog of Destruction">
         <!-- AUTO GENERATED NPC TODO: FIX IT -->
-        <race>ETC</race>
-        <sex>FEMALE</sex>
-        <stats str="88" int="79" dex="55" wit="78" con="82" men="78">
-            <vitals hp="99789.4215" hpRegen="10.5" mp="2821.65" mpRegen="3.6" />
+        <parameters>
+            <param name="MoveAroundSocial" value="157"/>
+            <param name="MoveAroundSocial1" value="157"/>
+            <param name="MoveAroundSocial2" value="157"/>
+            <param name="SoulShot" value="100"/>
+            <param name="SoulShotRate" value="10"/>
+            <param name="SpiritShot" value="100"/>
+            <param name="SpiritShotRate" value="5"/>
+            <param name="LongRangeGuardRate" value="5"/>
+        </parameters>
+        <race>UNDEAD</race>
+        <sex>MALE</sex>
+        <acquire exp="7357450" sp="220726" attribute_exp="11500"/>
+        <stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+            <vitals hp="80232.4215" hpRegen="10.5" mp="2821.65" mpRegen="3.6" />
+            <attack physical="2821.65" magical="1661.5869440987" critical="4" attackSpeed="253" range="40" />
+            <defence physical="789.85106382979" magical="198.0297029703" />
             <speed>
                 <walk ground="60" />
-                <run ground="120" />
+                <run ground="165" />
             </speed>
-            <attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
-            <defence physical="405.85106382979" magical="297.0297029703" />
         </stats>
         <status attackable="false" />
         <collision>
@@ -2859,18 +2947,29 @@
             </spoil>
         </dropLists>
     </npc>
-    <npc id="21997" level="86" type="Monster" name="Royal Guard of Arrogance" element="WIND">
+    <npc id="21997" level="86" type="Monster" name="Royal Guard of Arrogance">
         <!-- AUTO GENERATED NPC TODO: FIX IT -->
-        <race>ETC</race>
-        <sex>FEMALE</sex>
-        <stats str="88" int="79" dex="55" wit="78" con="82" men="78">
-            <vitals hp="99789.4215" hpRegen="10.5" mp="2821.65" mpRegen="3.6" />
+        <parameters>
+            <param name="MoveAroundSocial" value="157"/>
+            <param name="MoveAroundSocial1" value="157"/>
+            <param name="MoveAroundSocial2" value="157"/>
+            <param name="SoulShot" value="100"/>
+            <param name="SoulShotRate" value="10"/>
+            <param name="SpiritShot" value="100"/>
+            <param name="SpiritShotRate" value="5"/>
+            <param name="LongRangeGuardRate" value="5"/>
+        </parameters>
+        <race>UNDEAD</race>
+        <sex>MALE</sex>
+        <acquire exp="7357450" sp="220726" attribute_exp="115000"/>
+        <stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+            <vitals hp="80232.4215" hpRegen="10.5" mp="2821.65" mpRegen="3.6" />
+            <attack physical="2821.65" magical="1661.5869440987" critical="4" attackSpeed="253" range="40" />
+            <defence physical="789.85106382979" magical="198.0297029703" />
             <speed>
                 <walk ground="60" />
-                <run ground="120" />
+                <run ground="164" />
             </speed>
-            <attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
-            <defence physical="405.85106382979" magical="297.0297029703" />
         </stats>
         <status attackable="false" />
         <ai clanHelpRange="300" aggroRange="450">
@@ -2906,18 +3005,29 @@
             </spoil>
         </dropLists>
     </npc>
-    <npc id="21998" level="86" type="Monster" name="Archer of Arrogance" element="WIND">
+    <npc id="21998" level="86" type="Monster" name="Archer of Arrogance">
         <!-- AUTO GENERATED NPC TODO: FIX IT -->
-        <race>ETC</race>
-        <sex>FEMALE</sex>
-        <stats str="88" int="79" dex="55" wit="78" con="82" men="78">
-            <vitals hp="99789.4215" hpRegen="10.5" mp="2821.65" mpRegen="3.6" />
+        <parameters>
+            <param name="MoveAroundSocial" value="157"/>
+            <param name="MoveAroundSocial1" value="157"/>
+            <param name="MoveAroundSocial2" value="157"/>
+            <param name="SoulShot" value="100"/>
+            <param name="SoulShotRate" value="10"/>
+            <param name="SpiritShot" value="100"/>
+            <param name="SpiritShotRate" value="5"/>
+            <param name="LongRangeGuardRate" value="5"/>
+        </parameters>
+        <race>UNDEAD</race>
+        <sex>MALE</sex>
+        <acquire exp="7357450" sp="220726" attribute_exp="115000"/>
+        <stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+            <vitals hp="80232.4215" hpRegen="10.5" mp="2821.65" mpRegen="3.6" />
+            <attack physical="2821.65" magical="1661.5869440987" critical="4" attackSpeed="253" range="40" />
+            <defence physical="789.85106382979" magical="198.0297029703" />
             <speed>
                 <walk ground="60" />
-                <run ground="120" />
+                <run ground="160" />
             </speed>
-            <attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
-            <defence physical="405.85106382979" magical="297.0297029703" />
         </stats>
         <status attackable="false" />
         <collision>
@@ -2948,18 +3058,29 @@
             </spoil>
         </dropLists>
     </npc>
-    <npc id="21999" level="86" type="Monster" name="Judge of Arrogance" element="WIND">
+    <npc id="21999" level="86" type="Monster" name="Judge of Arrogance">
         <!-- AUTO GENERATED NPC TODO: FIX IT -->
-        <race>ETC</race>
+        <parameters>
+            <param name="MoveAroundSocial" value="157"/>
+            <param name="MoveAroundSocial1" value="157"/>
+            <param name="MoveAroundSocial2" value="157"/>
+            <param name="SoulShot" value="100"/>
+            <param name="SoulShotRate" value="10"/>
+            <param name="SpiritShot" value="100"/>
+            <param name="SpiritShotRate" value="5"/>
+            <param name="LongRangeGuardRate" value="5"/>
+        </parameters>
+        <race>UNDEAD</race>
         <sex>FEMALE</sex>
-        <stats str="88" int="79" dex="55" wit="78" con="82" men="78">
-            <vitals hp="99789.4215" hpRegen="10.5" mp="2821.65" mpRegen="3.6" />
+        <acquire exp="7357450" sp="220726" attribute_exp="115000"/>
+        <stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+            <vitals hp="80232.4215" hpRegen="10.5" mp="2821.65" mpRegen="3.6" />
+            <attack physical="2821.65" magical="1661.5869440987" critical="4" attackSpeed="253" range="40" />
+            <defence physical="789.85106382979" magical="198.0297029703" />
             <speed>
                 <walk ground="60" />
-                <run ground="120" />
+                <run ground="150" />
             </speed>
-            <attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
-            <defence physical="405.85106382979" magical="297.0297029703" />
         </stats>
         <status attackable="false" />
         <collision>
